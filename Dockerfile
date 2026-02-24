@@ -2,8 +2,6 @@ FROM eclipse-temurin:21
 
 WORKDIR /app
 
-COPY fineract-provider-1.12.0-SNAPSHOT.jar app1.jar
-
 # Descargar el jar desde una URL pública
 ADD https://github.com/OversoftCoreBanking/RailwayOCB_API/releases/download/1.12.0/fineract-provider-1.12.0-SNAPSHOT.jar /app/app.jar
 
