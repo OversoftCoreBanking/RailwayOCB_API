@@ -7,4 +7,4 @@ ADD https://github.com/OversoftCoreBanking/RailwayOCB_API/releases/download/1.12
 
 EXPOSE 8080
 
-ENTRYPOINT ["java","-jar","/app/app.jar"]
+ENTRYPOINT ["java","-Xmx1024m","-jar","/app/app.jar"]
